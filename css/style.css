@@ -1,0 +1,52 @@
+/* 
+-------
+!COMMON
+-------
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+-------
+!TYPOGRAPHY
+-------
+*/
+body {
+  font-family: "Roboto Mono", monospace;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Fredoka", sans-serif;
+}
+
+/* 
+-------
+!PALETTE
+-------
+titolo: #e53170
+cards: #0f0e17
+email: #00bdf3
+*/
+
+/* 
+-------
+!HEADER
+-------
+*/
+
+/* 
+-------
+!MAIN
+-------
+*/
+
+/* 
+-------
+!FOOTER
+-------
+*/
