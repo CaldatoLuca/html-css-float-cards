@@ -1,4 +1,4 @@
-/* 
+/*
 -------
 !COMMON
 -------
@@ -13,7 +13,7 @@
   margin: 50px auto 0;
 }
 
-/* 
+/*
 -------
 !TYPOGRAPHY
 -------
@@ -28,7 +28,7 @@ h4 {
   font-family: "Fredoka", sans-serif;
 }
 
-/* 
+/*
 -------
 !PALETTE
 -------
@@ -37,7 +37,7 @@ cards: #0f0e17
 email: #00bdf3
 */
 
-/* 
+/*
 -------
 !HEADER
 -------
@@ -51,11 +51,16 @@ header h1 {
   margin-bottom: 70px;
   font-weight: bolder;
 }
-/* 
+/*
 -------
 !MAIN
 -------
 */
+/* 
+--------
+? cards
+--------
+ */
 .cards {
   background-color: #0f0e17;
   width: calc(100% / 3 - 30px);
@@ -70,6 +75,13 @@ header h1 {
 .cards .info {
   float: left;
   color: white;
-  padding-left: 20px;
-  padding-top: 15px;
+  padding: 15px 0 15px 20px;
+}
+.cards .info h2 {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+.cards .info .mail {
+  color: #00bdf3;
+  margin-top: 2px;
 }
