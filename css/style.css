@@ -44,19 +44,24 @@ email: #00bdf3
 */
 header {
   text-align: center;
+  margin-bottom: 50px;
 }
 header h1 {
   color: #e53170;
   margin-bottom: 70px;
+  font-weight: bolder;
 }
 /* 
 -------
 !MAIN
 -------
 */
-
-/* 
--------
-!FOOTER
--------
-*/
+.cards {
+  background-color: tomato;
+  width: calc(100% / 3);
+  float: left;
+}
+.cards img {
+  display: block;
+  width: 100px;
+}
