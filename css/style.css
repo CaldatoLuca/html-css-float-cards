@@ -57,11 +57,19 @@ header h1 {
 -------
 */
 .cards {
-  background-color: tomato;
-  width: calc(100% / 3);
+  background-color: #0f0e17;
+  width: calc(100% / 3 - 30px);
   float: left;
+  margin: 25px 15px;
 }
 .cards img {
   display: block;
   width: 100px;
+  float: left;
+}
+.cards .info {
+  float: left;
+  color: white;
+  padding-left: 20px;
+  padding-top: 15px;
 }
